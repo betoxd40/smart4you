@@ -1,0 +1,40 @@
+.preloader{
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 1002;
+}
+
+.envoltura-preloader{
+	position: relative;
+	height: inherit;
+	width: inherit;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.preloader-left{
+	background-color: rgba(34, 40, 49, 1);
+}
+
+.preloader-right{
+	background-color: rgba(34, 40, 49, 1);
+}
+
+
+#preloader4U{
+	position: absolute;
+	left: 0;
+	top:0;
+	right: 0;
+	bottom: 0;
+	transform: translateY(-3000px);
+	margin: auto;
+	display: none;
+	width: 200px;
+	height: 200px;
+	opacity: 0;
+	z-index: 10000;
+}

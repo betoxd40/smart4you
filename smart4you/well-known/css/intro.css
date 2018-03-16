@@ -1,0 +1,23 @@
+#intro{position:fixed;height:100%;width:100%;margin:auto;background-color:white;z-index:1001;}
+#pantalla-animada-smart4U{height:100%;position:relative;}
+#pantalla-animada-smart4U .container{position:absolute;top:50%;left:50%;transform:translate(-50%, 50%);padding:0px 25px 0 25px;}
+#pantalla-animada-smart4U .container .row{width:100%;}
+#pantalla-animada-smart4U .container .row #animada-smart{position:relative;width:0%;}
+#pantalla-animada-smart4U .container .row #animada-smart svg#svg-de-smart{position:absolute;display:inline-block;top:50%;left:50%;float:left;transform:translate(-50%, -50%);height:250px;width:100%;z-index:-1;}
+#pantalla-animada-smart4U .container .row #animada-4U{position:relative;width:100%;}
+#pantalla-animada-smart4U .container .row #animada-4U svg#svg-de-4U{position:absolute;display:inline-block;top:50%;left:50%;float:left;transform:translate(-50%, -50%);height:250px;width:250px;z-index:-1;}
+#pantalla-animada-smart4U .container .row #animada-4U #base1{background-color:transparent;z-index:2000;}
+#pantalla-animada-smart4U .container .row #animada-4U .bases{position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);display:inline-block;height:300px;width:300px;background-color:transparent;border-radius:50%;}
+#pantalla-animada-smart4U .container .row #animada-4U .bases #pelota1{position:absolute;top:-20px;left:160px;height:100px;width:120px;background-color:#e65826;border-radius:50%;opacity:0;}
+#pantalla-animada-smart4U .container .row #animada-4U .bases #pelota2{position:absolute;top:0px;left:85px;height:55px;width:55px;background-color:#e86723;border-radius:50%;opacity:0;}
+#pantalla-animada-smart4U .container .row #animada-4U .bases #pelota3{position:absolute;top:30px;left:30px;height:45px;width:45px;background-color:#eb7a39;border-radius:50%;opacity:0;}
+#pantalla-animada-smart4U .container .row #animada-4U .bases #pelota4{position:absolute;top:70px;left:0px;height:30px;width:30px;background-color:#eb7d48;border-radius:50%;opacity:0;}
+#pantalla-animada-smart4U .container .row #animada-4U .bases #pelota5{position:absolute;top:115px;left:-10px;height:25px;width:25px;background-color:#ed885e;border-radius:50%;opacity:0;}
+#pantalla-animada-smart4U .container .row #animada-4U .bases #pelota6{position:absolute;top:150px;left:0px;height:15px;width:15px;background-color:#ed885e;border-radius:50%;opacity:0;}
+#pantalla-animada-smart4U .container .row #animada-4U .bases #pelota7{position:absolute;bottom:-20px;right:160px;height:100px;width:120px;background-color:#e65826;border-radius:50%;opacity:0;}
+#pantalla-animada-smart4U .container .row #animada-4U .bases #pelota8{position:absolute;bottom:0px;right:85px;height:55px;width:55px;background-color:#e86723;border-radius:50%;opacity:0;}
+#pantalla-animada-smart4U .container .row #animada-4U .bases #pelota9{position:absolute;bottom:30px;right:30px;height:45px;width:45px;background-color:#eb7a39;border-radius:50%;opacity:0;}
+#pantalla-animada-smart4U .container .row #animada-4U .bases #pelota10{position:absolute;bottom:70px;right:0px;height:30px;width:30px;background-color:#eb7d48;border-radius:50%;opacity:0;}
+#pantalla-animada-smart4U .container .row #animada-4U .bases #pelota11{position:absolute;bottom:115px;right:-10px;height:25px;width:25px;background-color:#ed885e;border-radius:50%;opacity:0;}
+#pantalla-animada-smart4U .container .row #animada-4U .bases #pelota12{position:absolute;bottom:150px;right:0px;height:15px;width:15px;background-color:#ed885e;border-radius:50%;opacity:0;}
+#pantalla-animada-smart4U .fa.fa-angle-double-up{position:absolute;left:50%;bottom:0;transform:translate(-50%, -50%);font-size:50px;font-weight:400;cursor:pointer;}

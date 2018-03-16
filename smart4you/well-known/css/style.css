@@ -1,0 +1,210 @@
+p{font-family:Open Sans Condensed;font-size:1.2rem;}
+h2,h1,h3,a{font-family:Anton;}
+h2{font-size:2.5rem;}
+@font-face{font-family:'Anton';font-style:normal;font-weight:400;src:url('../fonts/anton-latin.woff2') format('woff2'),url('../fonts/anton-latin.eot'), url('../fonts/anton-latin.eot?#iefix') format('embedded-opentype'), url('.../fonts/latin-roboto.ttf') format('truetype'), url('../fonts/anton-latin.svg#latolight') format('svg');}
+@font-face{font-family:'Anton';font-style:normal;font-weight:400;src:url('../fonts/anton-latin-ext.woff2') format('woff2'),url('../fonts/anton-latin-ext.eot'), url('../fonts/anton-latin-ext.eot?#iefix') format('embedded-opentype'), url('../fonts/anton-latin-ext.ttf') format('truetype'), url('../fonts/anton-latin-ext.svg#latolight') format('svg');}
+@font-face{font-family:'Open Sans Condensed';font-style:normal;font-weight:300;src:url('../fonts/opensanscondensed-latin.woff2') format('woff2'),url('../fonts/opensanscondensed-latin.eot'), url('../fonts/opensanscondensed-latin.eot?#iefix') format('embedded-opentype'), url('.../fonts/opensanscondensed-latin.ttf') format('truetype'), url('../fonts/opensanscondensed-latin.svg#latolight') format('svg');}
+@font-face{font-family:'Open Sans Condensed';font-style:normal;font-weight:300;src:url('../fonts/opensanscondensed-latin-ext.woff2') format('woff2'),url('../fonts/opensanscondensed-latin-ext.eot'), url('../fonts/opensanscondensed-latin-ext.eot?#iefix') format('embedded-opentype'), url('../fonts/opensanscondensed-latin-ext.ttf') format('truetype'), url('../fonts/opensanscondensed-latin-ext.svg#latolight') format('svg');}
+
+#banner-principal{background:url("../img/banner-principal.jpg");background-size:100% 100%;background-position:center;background-repeat:no-repeat;width:100%;height:100vh;}
+a:hover{text-decoration:none;}
+#cabecera{position:fixed;left:0;top:0;width:100%;box-shadow:0 4px 10px rgba(0,0,0,.2);z-index:1000;margin:0;}
+#cabecera .logo{width:200px;height:80px;}
+#header-izquierdo{width:100%;background-color:white;}
+#header-derecho{width:100%;background-color:#222831;}
+#texto-cabecera-izq{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);text-align:center;font-weight:900;font-size:1rem;color:white;}
+#icono-abrir-menu{position:absolute;top:58%;right:2.2vw;transform:translateY(-50%);height:30px;width:40px;background-color:transparent;cursor:pointer;}
+.rayas-X{position:absolute;left:10%;display:inline-block;background-color:black;}
+#raya-1{top:8px;height:2.5px;width:26px;}
+#raya-2{top:15px;height:2.5px;width:21px;}
+#raya-3{top:22px;height:2.5px;width:30px;}
+#extendida-izquierda{position:fixed;top:75px;left:0;transform:translateY(-120%);height:calc(100% - 75px);width:100%;background-color:white;z-index:999;}
+#extendida-derecha{position:fixed;top:75px;right:0;transform:translateY(100%);height:calc(100% - 75px);width:100%;background-color:#222831;z-index:999;}
+#extendida-derecha h2{color:#F96D00;}
+.redes-sociales{width:50px;height:40px;}
+.red-social{color:#f2f2f2;transition:0.3s;}
+.red-social:hover{color:#F96D00;}
+.nav{background-color:#f2f2f2;}
+.menu{width:75px;height:40px;}
+#banner-principal p{font-size:1.5rem;}
+.text-type-title{font-family:Open Sans Condensed;font-size:40px;color:#f2f2f2;font-weight:bold;}
+.text-type{font-family:Open Sans Condensed;font-size:40px;color:#f2f2f2;border-bottom:solid #F96D00 3px;}
+#banner-2{position:relative;background:url("../img/fondo2.jpg");background-size:100% 100%;background-position:center;background-repeat:no-repeat;width:100%;height:100vh;overflow:hidden;}
+#banner-2 .img-computador{width:400px;height:200px;}
+.wrapper-1{height:50vh;}
+.wrapper-2{height:50vh;}
+.img-papeleria{position:absolute;bottom:-250px;height:300px;}
+#banner-2 a{position:absolute;color:white;background:transparent;border-color:white;border-style:solid;border-width:3px;}
+#banner-2 p{font-size:1.25rem;}
+#banner-3{padding:0;}
+#banner-3 .wrapper-1{background:#f2f2f2;}
+#banner-3 .wrapper-2{background:#393e46;}
+.icon-scroll, .icon-scroll:before{position:absolute;}
+.icon-scroll{width:40px;height:70px;box-shadow:inset 0 0 0 1px #fff;border-radius:25px;}
+.icon-scroll:before{content:'';width:8px;height:8px;background:#fff;margin-left:16px;top:8px;border-radius:4px;animation-duration:1.5s;animation-iteration-count:infinite;animation-name:scroll;}
+.icon-scroll-black, .icon-scroll-black:before{position:absolute;}
+.icon-scroll-black{width:40px;height:70px;box-shadow:inset 0 0 0 1px #000000;border-radius:25px;}
+.icon-scroll-black:before{content:'';width:8px;height:8px;background:#000000;margin-left:16px;top:8px;border-radius:4px;animation-duration:1.5s;animation-iteration-count:infinite;animation-name:scroll;}
+@keyframes scroll{0%{opacity:1;}
+100%{opacity:0;transform:translateY(46px);}
+}
+#section-design-web{position:relative;overflow:hidden;background:#f2f2f2;width:100%;height:100vh;}
+#section-design-web h3{color:#222831;font-size:2rem;}
+.vertical-hr{border-left:solid 4px #F96D00;height:200px;}
+#section-design-web .img-design-web{top:100px;position:absolute;width:1000px;height:500px;}
+#section-design-graphic{position:relative;overflow:hidden;background:url("../img/banner-diseno-grafico.jpg");background-position:center;background-repeat:no-repeat;background-size:cover;background-attachment:fixed;width:100%;height:100vh;}
+.text-white{color:#f2f2f2;}
+#section-design-graphic .vertical-hr{height:140px;}
+.btn-design{margin-right:250px;}
+.btn-primary{background:transparent;border-color:#f2f2f2;color:#f2f2f2;font-size:1.25rem;border-width:5px;}
+.btn-primary:hover{background:#F96D00;border-color:#F96D00;}
+#section-community-manager{position:relative;overflow:hidden;background:#f2f2f2;width:100%;height:60vh;}
+#section-community-manager p{font-size:1.75rem;}
+.btn-secondary{background:transparent;border-color:#222831;color:#222831;font-size:1.25rem;border-width:5px;padding-right:0;padding-left:0;}
+.btn-secondary:hover{background:#222831;border-color:#222831;color:#f2f2f2;}
+#section-information{position:relative;overflow:hidden;background:url("../img/banner-informativo.jpg");background-position:center;background-repeat:no-repeat;background-size:cover;background-attachment:fixed;width:100%;height:100vh;}
+#section-information .box{width:500px;height:500px;background:white;position:absolute;bottom:0;left:50%;opacity:0.7;}
+#section-information hr{border:none;height:5px;color:#F96D00;background-color:#F96D00;}
+#section-information p{font-size:1.25rem;}
+#footer{position:relative;overflow:hidden;width:100%;background:#f2f2f2;}
+#footer p{padding:0;}
+#banner-principal-diseno-grafico{background:url("../img/banner-diseno-grafico-2.jpg");background-size:100% 100%;background-position:center;background-repeat:no-repeat;width:100%;height:100vh;}
+.box{background:#e1e0df;width:auto;height:300px;}
+.row-box{z-index:-2;margin-top:-200px;padding:0;}
+#enfoque{background:#222831;}
+#enfoque h2,h3{color:#f2f2f2;}
+#enfoque h3{font-family:Open Sans Condensed;font-weight:bold;}
+#enfoque p{color:#f2f2f2;}
+#servicios-adicionales{background:#f2f2f2;margin-top:-150px;-webkit-box-shadow:2px -5px 5px 0px rgba(0,0,0,0.4);-moz-box-shadow:2px -5px 5px 0px rgba(0,0,0,0.4);box-shadow:2px -5px 5px 0px rgba(0,0,0,0.4);}
+#servicios-adicionales h2{color:#f96d00;}
+.border-right-black{border-right:2px solid #222831;}
+#servicios-adicionales h3{color:#222831;}
+.row-top-border{border-top:2px solid #222831;}
+.overlay{position:absolute;bottom:0;left:0;right:0;background-color:#008CBA;overflow:hidden;width:100%;height:0;transition:.5s ease;}
+.content-overlay{display:block;width:100%;height:auto;}
+.container:hover .overlay{height:100%;}
+.image{display:block;width:100%;height:auto;}
+.separacion{border:none;height:20px;width:90%;height:50px;margin-top:0;border-bottom:1px solid #1f1209;box-shadow:0 20px 20px -20px #333;margin:-50px auto 10px;}
+#contacto{background:#f2f2f2;}
+#contacto h3{color:#222831;}
+#formulario{background:url("../img/contacto-smart4u.jpg");background-size:100% 100%;background-position:center;background-repeat:no-repeat;width:100%;height:100vh;position:relative;}
+.sec-formulario{background:#222831;padding:50px;margin-top:80px;opacity:0.9;}
+#formulario h2{color:#f96d00;padding-left:15px;}
+.group{width:90%;height:80px;overflow:hidden;position:relative;}
+.group > label{position:absolute;top:20px;color:#bfbfbf;font-family:Anton;font-size:20px;cursor:text;transition:.25s ease;}
+label{color:#bfbfbf;font-family:Anton;font-size:20px;cursor:text;transition:.25s ease;}
+.group > input{display:block;width:100%;padding-top:20px;border:none;border-radius:0;color:#f2f2f2;background:transparent;font-size:20px;font-family:Open Sans Condensed;transition:.3s ease;}
+input:focus{outline:none;}
+input:focus ~ label{top:0;font-family:Anton;font-size:15px;color:#f96d00;}
+textarea:focus{outline:none !important;border-color:#f96d00 !important;}
+textarea:focus ~ .textMensaje{color:red !important;}
+input:valid ~ label{top:0;}
+input:focus ~ .bar:before{transform:translateX(0);}
+input:-webkit-autofill{-webkit-box-shadow:0 0 0px 1000px #333 inset;-webkit-text-fill-color:white !important;}
+.bar{background:rgba(255, 255, 255, 0.5);content:'';width:550px;height:2px;transition:.3s ease;position:relative;}
+.bar:before{content:'';position:absolute;width:100%;height:150%;background:#f96d00;transform:translateX(-100%);}
+::selection{background:rgba(33, 150, 243, 0.3);}
+#formulario .btn-primary{border:solid 1px #f96d00;padding-right:45px;padding-left:45px;color:#f96d00;font-family:Anton;cursor:pointer;margin-left:15px;}
+#formulario .btn-primary:hover{background:#f96d00;color:#f2f2f2;}
+#community-manager{background:url("../img/community-manager.jpg");background-size:100% 100%;background-position:center;background-repeat:no-repeat;width:100%;height:100vh;position:relative;}
+.img-community{width:700px;height:400px;}
+.img-community-2{width:750px;height:500px;}
+#community-manager-2 .box-community{background:#e1e0df;width:auto;height:620px;}
+#community-manager-1 .vertical-hr{height:150px;}
+#community-manager-2 h3{color:#222831;}
+#community-manager-2 h3{font-family:Open Sans Condensed;font-weight:bold;}
+#community-manager-2 .row-box{margin-top:-500px;}
+#community-manager-2 .vertical-hr{margin-top:-98px;height:190px;}
+#blog{background:url("../img/blog.jpg");background-size:100% 100%;background-position:center;background-repeat:no-repeat;width:100%;height:100vh;position:relative;}
+#contenido-de-blogs .p-descripcion{font-size:2rem;}
+#contenido-de-blogs a{color:#222831;transition:0.2s;}
+#contenido-de-blogs a:hover{color:#f96d00;}
+#diseno-grafico{background:url("../img/diseno-grafico.jpg");background-size:100% 100%;background-position:center;background-repeat:no-repeat;width:100%;height:100vh;position:relative;}
+#diseno-grafico-1 .box-diseno-grafico{background:#e1e0df;width:auto;height:420px;}
+#diseno-grafico-1 .row-box-diseno{z-index:-2;margin-top:-150px;padding:0;}
+#diseno-grafico-2{margin-top:-200px;overflow:hidden;background:url("../img/diseno-grafico-s4u.jpg");background-position:center;background-repeat:no-repeat;background-size:cover;background-attachment:fixed;width:100%;height:100vh;}
+#diseno-grafico-2 h2{color:#f2f2f2;}
+#diseno-grafico-2 p{color:#f2f2f2;}
+.hr{border:none;height:2px;color:#F96D00;background-color:#F96D00;}
+#diseno-grafico-3{background:#222831;margin-top:-150px;-webkit-box-shadow:2px -5px 5px 0px rgba(0,0,0,0.4);-moz-box-shadow:2px -5px 5px 0px rgba(0,0,0,0.4);box-shadow:2px -5px 5px 0px rgba(0,0,0,0.4);}
+#diseno-grafico-3 h2{color:#f96d00;}
+#diseno-grafico-3 h3{font-family:Open Sans Condensed;}
+#diseno-grafico-3 p{color:#f2f2f2;}
+#redes-sociales{background:url("../img/importancia-de-las-redes-sociales.jpg");background-size:100% 100%;background-position:center;background-repeat:no-repeat;width:100%;height:100vh;position:relative;}
+#comienzo{background:url("../img/smart4u-banner.jpg");background-size:100% 100%;background-position:center;background-repeat:no-repeat;width:100%;height:100vh;position:relative;}
+#tips-instagram{background:url("../img/tips-para-instagram.jpg");background-size:100% 100%;background-position:center;background-repeat:no-repeat;width:100%;height:100vh;position:relative;}
+.blue-gray{color:#222831;}
+#redes-sociales-1 hr{width:60%;}
+.enlaces-menu:hover{color:#f96d00 !important;}
+.scrollToTop{width:100px;height:130px;padding:10px;text-align:center;font-weight:bold;color:#444;text-decoration:none;position:fixed;bottom:0;right:50px;display:none;background:url("../img/arrow-up-.png") center no-repeat;}
+.scrollToTop:hover{text-decoration:none;}
+.img-figuras{max-width:100%;height:auto;}
+
+#diseno-grafico-info .h2-sitio-web{
+    font-family: Open Sans Condensed !important;
+    font-size: 1.2rem !important;
+    display: inline;
+    font-weight: bold;
+}
+
+@media (max-width:1200px){#community-manager-2 .vertical-hr{margin-top:-74px;}
+}
+@media (max-width:992px){#diseno-grafico-info .vertical-hr{height:150px;}
+#section-design-web .img-design-web{width:800px;height:550px;}
+#section-design-web h3{margin-top:-30px;}
+#section-community-manager{height:100%;}
+#section-information .box{right:25%;left:25%;}
+#enfoque .vertical-hr{height:125px;}
+#community-manager-2 .vertical-hr{display:none;}
+#intro{display:none;}
+.type-class{display:none;}
+}
+@media (max-width:768px){#diseno-grafico{background:url("../img/banner-diseno-grafico-responsive-2.jpg");background-size:100% 100%;background-position:center;background-repeat:no-repeat;width:100%;height:100vh;position:relative;}
+#section-information{height:60vh;margin-top:50px;margin-bottom:50px;}
+#section-information .box{right:15%;left:15%;width:350px;height:350px;}
+.titulo{text-align:center;}
+#section-design-web .img-design-web{width:500px;height:450px;}
+#section-design-web h3{padding-top:25px;font-size:30px;margin-bottom:30px;}
+h2{font-size:30px;}
+#enfoque .vertical-hr{height:90px;}
+p{font-size:1.1rem;}
+.img-servicios-adicionales{width:80px;height:80px;}
+#servicios-adicionales h3{font-size:20px;}
+#servicios-adicionales h2{font-size:30px;}
+.scrollToTop{bottom:0;right:0;}
+.sec-formulario{padding:10px;}
+}
+@media (max-width:576px){.text-intro-web{font-size:29px;}
+.text-siempre-trabajando{font-size:20px;}
+#diseno-grafico-1 .vertical-hr{display:none;}
+#diseño-grafico-1 .brain-img{display:none;}
+#blog{background:url("../img/blog-responsive.jpg");background-size:100% 100%;background-position:center;background-repeat:no-repeat;width:100%;height:100vh;position:relative;}
+#banner-principal-diseno-grafico{background:url("../img/disenoweb-responsive.jpg");background-size:100% 100%;background-position:center;background-repeat:no-repeat;width:100%;height:100vh;position:relative;}
+#blog .icon-scroll{width:40px;height:70px;box-shadow:inset 0 0 0 1px #000000;border-radius:25px;}
+#blog .icon-scroll:before{content:'';width:8px;height:8px;background:#000000;margin-left:16px;top:8px;border-radius:4px;animation-duration:1.5s;animation-iteration-count:infinite;animation-name:scroll;}
+#community-manager{background:url("../img/cm-responsive.jpg");background-size:100% 100%;background-position:center;background-repeat:no-repeat;width:100%;height:100vh;position:relative;}
+#community-manager-1 .vertical-hr{display:none;}
+.img-diseno-web{display:none;}
+#section-information h2{font-size:25px;}
+#section-information .box{right:5%;left:5%;width:350px;height:350px;}
+.titulo{font-size:3rem;}
+#section-design-web .img-design-web{display:none;}
+#section-design-web{height:100%;padding-bottom:30px;}
+#section-design-web h3{margin-top:-30px;}
+#section-design-web .vertical-hr{border-left:solid 3px #F96D00;height:100px;}
+#enfoque h2{font-size:30px;}
+h2{font-size:32px;}
+.vertical-div{padding-right:0;}
+.img-servicios-adicionales{width:50px;height:50px;}
+h3{font-size:20px;}
+.text-min{padding-right:20px;font-size:18px !important;}
+.img-figuras{display:none;}
+}
+#redes-sociales-1 h3{color:#222831;}
+.share{color:black;transition:0.3s;}
+.share:hover{color:#F96D00;}
+.img-thumbnail-pre{padding:0.25rem;background-color:#fff;border:1px solid #ddd;border-radius:0.25rem;transition:all 0.2s ease-in-out;max-width:100%;height:100px;}
+.h1-diseño-web{font-size:2rem !important;display:inline;}
+.h1-diseno-web-sec{font-size:1.2rem !important;display:inline;font-family:Open Sans Condensed;}
+.display-in{display:inline !important;}
+.no-br{white-space:nowrap;}
